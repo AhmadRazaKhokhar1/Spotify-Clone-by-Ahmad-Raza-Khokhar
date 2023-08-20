@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+body{
+    background: antiquewhite;
+    padding: auto;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Author CSS  */
+.mainContainerProfile{
+    display: block;
+    overflow: hidden;
+    margin-left: 350px;
+    margin-top: 50px;
+    transition: all 2s;
+    border: .3px solid grey;
+    width: 550px;
+    padding: 25px;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px grey;
+    text-shadow: 2px 2px 2px grey;
+}
+.profile{
+    width: 150px;
+    border-radius: 27px;
+    transition: 2s all;
+}
+#AhmadRazaKhokhar{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+}
+sub{
+    font-size: 8px;
+}
+#nav{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    padding: auto;
+}
+/* Logo */
+#logo{
+    width: 35px;
+    height: 35px;
+    margin: 17px 0;
+}
+#ul{
+    display: flex;
+    list-style: none;
+    padding: 25px 50px;
+}
+#ul li{
+    margin-right: 15px; 
+    font-size: small;
+}
+#ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+/* songPlayList */
+#playList{
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 17px;
+    width: 55vw;
+    height: 105vh;
+    background-color:rgba(60, 255, 0, 0.281);
+    padding: 25px;
+    margin: 20px auto;
+    transition: all 3s;
+}
+.songItem{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px rgba(0, 128, 0, 0.651);
+    background: black;
+    color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+}
+.songItem:hover{
+    scale: 1.1;
+    transition: all .5s;
+}
+.songCover{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+.songName{
+    margin: 10px auto;
+}
+.playPause{
+    background-color: green;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 1px 1px rgb(101, 121, 101);
+
+}
+.credits{margin-top: -650px; margin-left: 450px;}
+.i{text-shadow: 1px 1px 1px grey;}
+.j{text-shadow: 4px 2px 2px grey;}
+.ahmadRazaKhokhar{width: 150px; border-radius: 17px; box-shadow: 5px 5px 5px grey;}
+hr{width: 100px; margin-left: 600px;}
+#playEffects{
+    width: 450px;
+    margin-left: 400px;
+    transition: all 2s;
+}
+#speakerBass{
+    width: 150px;
+    border-radius: 122px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0;
+}
+#redBass{
+    width: 250px;
+    height: 40px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 7px;
+    opacity: 0;
+}
+.btnImage{
+    height: 12px;
+    width: 14px;
+    margin: 9px 0;
+}
+/* Sponsors */
+.ads{
+    border: none;
+    border-radius: 14px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px grey;
+}
+.ads:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#sponsors{
+    display: flex;
+    justify-content: space-around;
+}
+/* Master Play CSS  */
+#masterPlayBar{
+    background-color: black;
+    color: antiquewhite;
+    height: 14vh;
+    width: 55vw;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 300px;
+}
+#alignGif{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -5px;
+    opacity: 0;
+    justify-content: space-between;
+    display: flex;
+}
+#masterBackward, #masterPlay, #masterForward{
+    width: 25px;
+    margin: auto 15px;
+    cursor: pointer;
+}
+#masterPlayGif{
+    width: 200px;
+    height: 4vh;
+
+}
+#progressBar{
+    margin: auto 30px;
+    width: 50vw;
+    accent-color: rgb(0, 247, 0);
+    cursor: pointer;
+}
+.masterSongName{
+    color: aliceblue;
+    font-size: small;
+    height: 25px;
+    width: 75px;
+    opacity: 1;
+}
+.masterTimeStamp{
+    color: aliceblue;
+}
+.brand{
+    margin-left: 75px;
+    background-color: aliceblue;
+    width: 150px;
+    font-size: medium;
+    font-weight:bolder;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    border-left: 5px solid red;
+    box-shadow: 5px 5px 5px grey;
+}
+.brand1{
+    margin-left: 75px;
+    background-color: aliceblue;
+    width: 150px;
+    font-size: medium;
+    font-weight:bolder;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    border-left: 5px solid red;
+    box-shadow: 5px 5px 5px grey;
+}
+.alignControls{
+    display: flex;
+    margin-left: 300px;
+}
+footer{
+   display: flex;
+   background-color: black;
+   padding: 25px;
+   color: aliceblue;
+   justify-content: space-around;
+   margin-top: 250px;
+   font-size: small;
+}
+
+/* Mobile View Css Media Queries  */
+@media only screen and (max-width: 640px) and (min-width: 0px) {
+
+    body{
+        background: antiquewhite;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        width: 80vw;
+        height: auto;
+        position: relative;
+        overflow: scroll;
+    }
+    #nav{
+        background-color: black;
+        color: white;
+        height: 10vh;
+        display: flex;
+        padding: auto;
+        width:100vw;
+        font-size: 5px;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    footer{
+        display: flex;
+        width:100vw;
+        height: 10vh;
+        margin-top: 62px;
+        position: static;
+        justify-content: center;
+        padding: 0px;
+    }
+    .footer{
+        display: flex;
+        width:100vw;
+        height: 10vh;
+        margin-top: 162px;
+        position: static;
+        justify-content: center;
+        padding: 0px;
+    }
+    .section{
+        justify-content: center;
+        font-size: 6px;
+        padding: 0;
+        margin-left: -29px;
+        margin-right: 9px;
+    }
+    /* Logo */
+    #logo{
+        width: 30px;
+        height: 30px;
+        margin: 25px 20px;
+    }
+    #ul{
+        display: flex;
+        list-style: none;
+        padding: 35px 10px;
+    }
+    #ul li{
+        margin-right: 15px; 
+        font-size: xx-small;
+    }
+    hr{
+        width: 72px;
+        margin-left: 95px;
+        margin-top: 35px;
+        margin-bottom: -508px;
+    }
+    /* songPlayList */
+    #playList{
+        display: block;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 17px;
+        width: 90vw;
+        height: 105vh;
+        background-color:rgba(60, 255, 0, 0.281);
+        padding: 25px;
+        margin:125px 0;
+        margin-left: 10px;
+        position: absolute;
+    }
+    #masterPlayBar{
+        width: 95vw;
+        margin-right: 0;
+        overflow: scroll;
+        position: relative;
+        margin-top: 850px;
+        margin-left: 10px;
+    }
+    #progressBar{
+        width: 90vw;
+    }
+    #playEffects{
+        width: 450px;
+        margin-left: 400px;
+        transition: all 2s;
+    }
+    #speakerBass{
+        width: 150px;
+        border-radius: 122px;
+        margin-left: 50px;
+        box-shadow: 5px 5px 5px grey;
+        opacity: 0;
+    }
+    #redBass{
+        width: 250px;
+        height: 40px;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 7px;
+        opacity: 0;
+    }
+    .btnImage{
+        height: 12px;
+        width: 14px;
+        margin: 9px 0;
+    }
+    /* Sponsors */
+    .ads{
+        border: none;
+        border-radius: 14px;
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .ads:hover{
+        scale: 1.1;
+        cursor: pointer;
+    }
+
+    #alignGif{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: -5px;
+        opacity: 0;
+        justify-content: space-between;
+        display: flex;
+    }
+    #masterBackward, #masterPlay, #masterForward{
+        width:15px;
+        margin: auto 5px;
+        margin-left: -80px;
+        cursor: pointer;
+    }
+    #masterPlayGif{
+        width: 60px;
+        height: 4vh;
+    
+    }
+    #progressBar{
+        margin: auto 30px;
+        width: 80vw;
+        accent-color: rgb(0, 247, 0);
+        cursor: pointer;
+    }
+    .songItem{
+        width: 55vw;
+        height: 5vh;
+        border-radius: 17px;
+        box-shadow: 5px 5px 5px rgba(0, 128, 0, 0.651);
+        background: black;
+        color: antiquewhite;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .songCover{
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+    }
+    .songName{
+        margin: 10px auto;
+        font-size: xx-small;
+    }
+    .playPause{
+        background-color: green;
+        padding: 3px 3px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 15px;
+        height: 15px;
+        box-shadow: 1px 1px 1px rgb(101, 121, 101);
+    }
+    .credits{margin-top: -550px; margin-left: 220px;}
+    .i{text-shadow: 1px 1px 1px grey; font-size: xx-small;}
+    .j{text-shadow: 4px 2px 2px grey; font-size: xx-small;}
+    .ahmadRazaKhokhar{width: 50px; border-radius: 17px; box-shadow: 5px 5px 5px grey;}
+    #playEffects{
+        width: 20px;
+        margin-left: 180px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        transition: all 2s;
+    }
+    #speakerBass{
+        width: 70px;
+        border-radius: 100px;
+        margin-left: 50px;
+        box-shadow: 5px 5px 5px grey;
+        opacity: 0;
+    }
+    #redBass{
+        width: 70px;
+        height: 50px;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 17px;
+        opacity: 0;
+        margin-left: 50px;
+    }
+    .btnImage{
+        height: 12px;
+    }
+    /* Sponsors */
+    .brand{
+        width: 100px;
+        margin-top: 480px;
+        font-size: small;
+    }
+    .brand1{
+        margin-top: 80px;
+        margin-bottom: -80px;
+        background-color: aliceblue;
+        width: 80px;
+        font-size: medium;
+        font-weight:bolder;
+        text-align: center;
+        border-radius: 7px;
+        padding: 5px;
+        border-left: 5px solid red;
+        box-shadow: 5px 5px 5px grey;
+        font-size: small;
+    }
+    .ads{
+        border: none;
+        border-radius: 37px;
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px grey;
+    }
+    #sponsors{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-around;
+        margin-left: 10px;
+        width: 280px;
+        position: absolute;
+    }
+    .hr{
+        margin-top: 280px;
+    }
+    .sponsors{
+        display: flex;
+        margin-top: 550px;
+        justify-content: space-around;
+        margin-left: 10px;
+        width: 280px;
+        position: absolute;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+/* Author CSS  */
+.mainContainerProfile{
+
+    margin-left: 5px;
+    margin-bottom: -80px;
+    margin-top: 100px;
+    transition: all 2s;
+    border: .3px solid grey;
+    width: 75vw;
+    padding: 4px;
+    font-size: 6.5px;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px grey;
+    text-shadow: 2px 2px 2px grey;
+    position: absolute;
+}
+.profile{
+    width: 30px;
+    border-radius: 27px;
+    transition: 2s all;
+}
+#AhmadRazaKhokhar{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+}
+sub{
+    font-size: 4px;
+}
+}
